@@ -1,0 +1,34 @@
+body{
+    background-color: #eee;
+    text-align: center;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img-div{
+    background-color: #fff;
+    padding: 10px 10px 5px 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#tribute-info{
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#timeline ul{
+    text-align: justify;
+}
+
+#timeline p{
+    text-align: justify;
+}
