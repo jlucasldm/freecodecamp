@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(216, 174, 255);
+}
+
+header{
+    text-align: center;
+}
+
+.question_title{
+    font-size: 1.3em;
+}
+
+.question_title{
+    margin-bottom: 5px;
+}
+
+#content{
+    background-color: rgb(170, 112, 224);
+    border-radius: 5px;
+    padding: 10px 30px 10px 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#suggestions{
+    width: 100%;
+    height: 100px;
+}
+
+#submit{
+    width: 100%;
+}
