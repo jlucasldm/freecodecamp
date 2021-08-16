@@ -1,0 +1,45 @@
+#navbar{
+    margin-bottom: 20px;
+}
+
+nav header{
+    text-align: center;
+}
+
+#navbar li{
+    list-style: none;
+    margin-bottom: 7px;
+}
+
+#navbar li a{
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    font-size: 1.7em;
+}
+
+#main{
+    display: flex;
+    flex-direction: row;
+}
+
+#main-doc{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.main-section{
+    margin-bottom: 50px;
+}
+
+@media (max-width: 815px) {
+    #main{
+        flex-direction: column;
+    }
+
+    #navbar li{
+        margin-bottom: 3px;
+    }
+}
