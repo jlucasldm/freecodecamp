@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 253, 240);
+}
+
+/*------NAVBAR-------*/
+#navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #8200aa;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#navbar ul{
+    display: flex;
+    padding-right: 20px;
+}
+
+li{
+    font-size: 1.5em;
+    list-style: none;
+    margin-left: 20px;
+}
+
+/*-------WELCOME MAIN-------*/
+#welcome-section{
+    background-color: rgb(19, 19, 19);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#welcome-section div{
+    color: rgb(255, 253, 240);
+    font-size: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+#welcome-section div h3,
+#welcome-section div h4{
+    font-size: 50px;
+}
+
+#welcome-section div h4{
+    align-self: flex-end;
+}
+
+/*-------PROJECTS-------*/
+#projects{
+    background-color: rgb(19, 19, 19);
+    color: rgb(255, 253, 240);
+    text-align: center;
+    font-size: 1.3em;
+    padding-top: 30px;
+}
+
+#projects p{
+    padding: 10px 0px 40px 0px;
+}
+
+@media (max-width: 780px) {
+    #welcome-section div{
+        font-size: 40px;
+    }
+    
+    #welcome-section div h3,
+    #welcome-section div h4{
+        font-size: 30px;
+    }
+}
